@@ -1,0 +1,1 @@
+/Users/daniel/Documents/projetos/rust-patterns-examples/target/debug/rust-patterns-examples: /Users/daniel/Documents/projetos/rust-patterns-examples/src/behavioral.rs /Users/daniel/Documents/projetos/rust-patterns-examples/src/creational.rs /Users/daniel/Documents/projetos/rust-patterns-examples/src/main.rs /Users/daniel/Documents/projetos/rust-patterns-examples/src/structural.rs
