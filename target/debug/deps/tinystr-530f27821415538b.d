@@ -1,0 +1,11 @@
+/Users/daniel/Documents/projetos/rust-patterns-examples/target/debug/deps/tinystr-530f27821415538b.rmeta: /Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/lib.rs /Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/macros.rs /Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/ascii.rs /Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/asciibyte.rs /Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/error.rs /Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/int_ops.rs /Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/unvalidated.rs
+
+/Users/daniel/Documents/projetos/rust-patterns-examples/target/debug/deps/tinystr-530f27821415538b.d: /Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/lib.rs /Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/macros.rs /Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/ascii.rs /Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/asciibyte.rs /Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/error.rs /Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/int_ops.rs /Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/unvalidated.rs
+
+/Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/lib.rs:
+/Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/macros.rs:
+/Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/ascii.rs:
+/Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/asciibyte.rs:
+/Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/error.rs:
+/Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/int_ops.rs:
+/Users/daniel/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tinystr-0.7.4/src/unvalidated.rs:
