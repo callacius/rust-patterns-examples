@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 lazy_static = "1.4.0"
 druid = "0.8.3"
+fltk = { version = "^1.4", git = "https://github.com/fltk-rs/fltk-rs" }

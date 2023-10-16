@@ -1,34 +1,37 @@
-use druid::widget::{Button, Flex, Label, RadioGroup};
-use druid::{AppLauncher, LocalizedString, Widget, WidgetExt, WindowDesc};
-
 mod creational;
 mod structural;
 mod behavioral;
 
+use fltk::prelude::WidgetBase;
+use fltk::prelude::GroupExt;
+use fltk::{app, button::Button, input::Input, window::Window, prelude::WidgetExt};
+//use fltk::{app, button::Button, frame::Frame, prelude::*, window::Window};
+
+
 fn main() {
-    // creational::singleton::run();
-    // creational::builder::run();
-    // creational::prototype::run();
-    // creational::factory_method::run();
-    // creational::abstract_factory::run();
 
-    // structural::adapter::run();
-    // structural::bridge::run();
-    // structural::composite::run();
-    // structural::decorator::run();
-    // structural::facade::run();
-    // structural::flyweight::run();
-    // structural::proxy::run();
+    let app = app::App::default();
+    let mut wind = Window::new(100, 100, 400, 200, "Car Details");
 
-    //behavioral::chain_of_responsibility::run();
-    // behavioral::command::run();
-    // behavioral::interpreter::run();
-    // behavioral::iterator::run();
-    // behavioral::mediator::run();
-    // behavioral::memento::run();
-    // behavioral::observer::run();
-    // behavioral::state::run();
-    // behavioral::strategy::run();
-    // behavioral::template_method::run();
-    // behavioral::visitor::run();
+    let mut model_input = Input::new(110, 50, 250, 25, "Model:");
+    let mut year_input = Input::new(110, 90, 250, 25, "Year:");
+    let mut update_button = Button::new(150, 130, 120, 30, "Update Details");
+
+    {
+        let car = creational::singleton::Carro::instance();
+        model_input.set_value(&car.modelo());
+        year_input.set_value(&car.ano().to_string());
+    }
+
+    
+    update_button.set_callback(move |_| {
+        let mut car = creational::singleton::Carro::instance();
+        car.set_modelo(model_input.value());
+        car.set_ano(year_input.value().to_int().unwrap());
+    });
+
+    wind.end();
+    wind.show();
+
+    app.run().unwrap();
 }
